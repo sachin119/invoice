@@ -99162,7 +99162,7 @@ k=n.b++
 i=n.e
 i===$&&B.b()
 n.c.G(0,new B.BU(n,k,0,l,i,B.a([],t.s),null,null,0))}s=3
-return B.I($.ta().lC(0,"assets/assets/fonts/NotoSansJP-Regular.ttf"),$async$om)
+return B.I($.ta().lC(0,"assets/fonts/NotoSansJP-Regular.ttf"),$async$om)
 case 3:h=b
 f.a=f.b=null
 s=4
