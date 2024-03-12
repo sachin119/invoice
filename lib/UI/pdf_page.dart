@@ -18,11 +18,11 @@ class _GeneratePDFState extends State<GeneratePDF> {
   Future<Uint8List> saveInvoice() async {
     double width = MediaQuery.of(context).size.width;
     final pdf = pw.Document();
-    final font = await rootBundle.load("assets/fonts/NotoSansJP-Regular.ttf");
+    final font = await rootBundle.load("assets/assets/fonts/NotoSansJP-Regular.ttf");
     final ttf = pw.Font.ttf(font);
     pw.ImageProvider? firstImage;
     pw.ImageProvider? secondImage;
-    final logoImage = await networkImage('assets/logo.png');
+    final logoImage = await networkImage('assets/assets/logo.png');
 
     if (widget.data['images'][0] != null) {
       firstImage = await networkImage(widget.data['images'][0]);

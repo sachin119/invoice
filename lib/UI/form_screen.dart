@@ -223,7 +223,7 @@ class _FormScreenState extends State<FormScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                kIsWeb ? Image.network('assets/logo.png', width: 250) : Image.asset('assets/logo.png', width: 200),
+                kIsWeb ? Image.network('assets/assets/logo.png', width: 250) : Image.asset('assets/logo.png', width: 200),
                 SizedBox(height: 20),
                 Text('基本資料可上傳行照/身分證或駕照，僅填寫手機號碼即可。）', style: TextStyle(
                   fontSize: 18,
